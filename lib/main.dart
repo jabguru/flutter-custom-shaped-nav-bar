@@ -63,14 +63,14 @@ class _MyHomePageState extends State<MyHomePage> {
                             onPressed: () => print('home')),
                         IconButton(
                             icon: Icon(Icons.restaurant_menu),
-                            onPressed: () => print('home')),
+                            onPressed: () => print('menu')),
                         SizedBox(width: size.width * 0.20),
                         IconButton(
                             icon: Icon(Icons.bookmark),
-                            onPressed: () => print('home')),
+                            onPressed: () => print('save')),
                         IconButton(
                             icon: Icon(Icons.notifications),
-                            onPressed: () => print('home')),
+                            onPressed: () => print('notifications')),
                       ],
                     ),
                   ),
